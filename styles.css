@@ -71,7 +71,15 @@ p {
     padding: 5px;
 }
 
-
+footer p {
+    /* Your specific footer paragraph styles here */
+    font-size: 0.8em; /* Example: Smaller font size */
+    color: #ccc; /* Lighter text color for the darker background */
+    text-shadow: none; /* Removing text shadow in the footer if it's hard to read */
+    margin: 0; /* Reset margin if necessary */
+    padding: 0; /* Reset padding if necessary */
+    letter-spacing: normal; /* Reset letter spacing if necessary */
+}
 /* Responsive adjustments */
 @media (max-width: 600px) {
     header, main, footer {
