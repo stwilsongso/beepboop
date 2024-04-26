@@ -57,6 +57,10 @@ img {
     display: block;
 }
 
+p {
+    text-align: center;
+}
+
 /* Responsive adjustments */
 @media (max-width: 600px) {
     header, main, footer {
