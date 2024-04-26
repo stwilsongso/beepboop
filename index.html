@@ -35,5 +35,18 @@
     <footer>
         <p>Copyright © 2024 Scott Wilson</p>
     </footer>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const sections = document.querySelectorAll('.section');
+        document.querySelector('nav').addEventListener('click', function(e) {
+            if (e.target.tagName === 'A') {
+                const activeSection = document.querySelector(e.target.getAttribute('href'));
+                sections.forEach(section => section.style.display = 'none');
+                activeSection.style.display = 'block';
+                e.preventDefault();
+            }
+        });
+    });
+</script>
 </body>
 </html>
