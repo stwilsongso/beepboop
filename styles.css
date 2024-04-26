@@ -40,6 +40,8 @@ main {
     width: 80%;
     max-width: 900px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 footer {
@@ -52,7 +54,7 @@ footer {
 img {
     max-width: 100%;
     height: auto;
-    display: block; /* This will prevent images from having extra space below them */
+    display: block;
 }
 
 /* Responsive adjustments */
