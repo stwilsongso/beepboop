@@ -49,6 +49,12 @@ footer {
     color: #ffffff;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* This will prevent images from having extra space below them */
+}
+
 /* Responsive adjustments */
 @media (max-width: 600px) {
     header, main, footer {
